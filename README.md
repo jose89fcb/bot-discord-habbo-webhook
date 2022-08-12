@@ -4,4 +4,7 @@ Con este sencillo bot podras hablar como cualquier habbo solo escribiendo el nom
 
 <br>
 Son sólo bots programados con el siguiente código
-
+<br>
+Comando para usar el bot:
+<br>
+!hablar .iroke. hola que tal estamos?
