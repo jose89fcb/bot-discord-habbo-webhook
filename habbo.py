@@ -15,7 +15,7 @@ async def hablar(ctx,   keko, *, mensaje):
     await ctx.send("...", delete_after=0)
     time.sleep(3)
     
-    webhook = DiscordWebhook(url='https://discord.com/api/webhooks/1007483676965220495/TnUp54CPF8nhcYWAVRJW5252Ng51KQYK5X3IeaG5BQfmuzWkXpsb6HxXCVJJtnJOke0C',
+    webhook = DiscordWebhook(url=''#obtener un webhook,
                          username=f"{keko}" ,content=f"{mensaje}", avatar_url=f"https://www.habbo.es/habbo-imaging/avatarimage?user={keko}&action=none&direction=2&head_direction=2&gesture=std&size=l")
     response = webhook.execute()
 @bot.event
